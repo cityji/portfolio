@@ -1,0 +1,49 @@
+.experience_container{
+    background: var(--color-bg-varient);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding: 3rem 1rem;
+    width: 100% !important;
+    position: relative;
+    margin-top:5rem !important;
+}
+.experience_container::before{
+    content: 'Front End';
+    position: absolute;
+    left:2rem;
+    top: -1.3rem;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    background: var(--color-bg);
+    color: var(--color-primary);
+    border:1px solid var(--color-primary);
+}
+.experience_frontend{
+    background: var(--color-bg);
+    border-radius: 1rem;
+    padding: 1rem .5rem;
+    margin: 1rem 0px;
+    min-width:18rem;
+    max-width: 22rem;
+    height:15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    /* main container card contains h1 and div */
+}
+ .item{
+    display: flex;
+    justify-content: space-between;
+    margin: .3rem auto;
+    max-width: 80%;
+}
+
+
+/* custom css  */
+#experience{
+    height: min-content;
+}
+/* the height of Experience content is less than 100vh */

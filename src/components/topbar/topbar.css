@@ -1,0 +1,17 @@
+#top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 2rem;
+    background: var(--color-bg-varient);
+}
+
+@media only screen and (max-width:610px){
+#top{
+    justify-content: center;
+	flex-direction:column; 
+    flex-direction: column;
+border:2rem solid black;
+}
+}
