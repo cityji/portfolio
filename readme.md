@@ -15,8 +15,8 @@
 <h5>See What Browser sees</h5>
 <a href="https://cityji.github.io/portfolio/">(+)God Mode(+)</a>
 
-<h5>See What Browser sees</h5>
+<h5>See What Browser sees in new window </h5>
 <a href="https://cityji.github.io/portfolio/" target="_blank">(+)God Mode(+)</a>
 	
 
-<center><h1>Happy Hacking! <h1></center>
+<center>happy hacking</center>
