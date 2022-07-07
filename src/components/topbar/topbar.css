@@ -8,10 +8,14 @@
 }
 
 @media only screen and (max-width:610px){
-#top{
-    justify-content: center;
-	flex-direction:column; 
-    flex-direction: column;
-border:2rem solid black;
+#top h1 {
+	content:'Switch Mode';
+	font-size:2rem;
 }
+   #top{
+	padding:3rem;
+	align-items:center;
+	justify-content:center;
+	flex-direction:space-around;
+   } 
 }

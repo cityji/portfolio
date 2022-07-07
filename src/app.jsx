@@ -6,8 +6,8 @@ import Nav from './components/nav/Nav'
 import About from './components/about/about'
 import Experience from './components/experiance/experiance'
 import Services from './components/services/services'
-import Portfolio from './components/portfolio/portfolio'
-import Testimonials from './components/certifications/certifications'
+//import Portfolio from './components/portfolio/portfolio'
+//import Testimonials from './components/certifications/certifications'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/footer'
 const app = () => {
@@ -17,14 +17,13 @@ const app = () => {
       <Header />
       <Nav />
       <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonials />
+      <Experience />  
+	<Services />
+
       <Contact />
       <Footer />
     </>
-    // testimonials sections removed as i didn't had any testimonials
+    // testimonials and portfolio sections has been  removed as i didn't had any testimonials
     // instead i tried going with the certifications i had
   )
 }
